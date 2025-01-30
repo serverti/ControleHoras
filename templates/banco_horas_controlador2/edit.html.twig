@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit BancoHoras{% endblock %}
+
+{% block body %}
+    <h1>Edit BancoHoras</h1>
+
+    {{ include('banco_horas_controlador2/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_banco_horas_controlador2_index') }}">back to list</a>
+
+    {{ include('banco_horas_controlador2/_delete_form.html.twig') }}
+{% endblock %}

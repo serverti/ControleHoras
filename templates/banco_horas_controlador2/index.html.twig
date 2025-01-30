@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}BancoHoras index{% endblock %}
+
+{% block body %}
+    <h1>BancoHoras index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>DataHoraInicial</th>
+                <th>DataHoraFinal</th>
+                <th>NomeCliente</th>
+                <th>TipoAtendimento</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for banco_hora in banco_horas %}
+            <tr>
+                <td>{{ banco_hora.id }}</td>
+                <td>{{ banco_hora.dataHoraInicial ? banco_hora.dataHoraInicial|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ banco_hora.dataHoraFinal ? banco_hora.dataHoraFinal|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ banco_hora.nomeCliente }}</td>
+                <td>{{ banco_hora.tipoAtendimento }}</td>
+                <td>
+                    <a href="{{ path('app_banco_horas_controlador2_show', {'id': banco_hora.id}) }}">show</a>
+                    <a href="{{ path('app_banco_horas_controlador2_edit', {'id': banco_hora.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_banco_horas_controlador2_new') }}">Create new</a>
+{% endblock %}
