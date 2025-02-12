@@ -162,6 +162,6 @@ class __TwigTemplate_0f670fb6c1a74834694f957836989849 extends Template
 
     {{ include('banco_horas/_delete_form.html.twig') }}
 {% endblock %}
-", "banco_horas/edit.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas\\edit.html.twig");
+", "banco_horas/edit.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas\\edit.html.twig");
     }
 }

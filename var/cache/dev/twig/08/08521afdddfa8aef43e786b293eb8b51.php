@@ -114,6 +114,6 @@ class __TwigTemplate_13c2d53e222abf25c445c4418db56e53 extends Template
 
 {% block main %}
     {# ... #}
-{% endblock main %}", "banco_horas/dashboard.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas\\dashboard.html.twig");
+{% endblock main %}", "banco_horas/dashboard.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas\\dashboard.html.twig");
     }
 }

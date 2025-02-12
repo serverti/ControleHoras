@@ -155,6 +155,6 @@ class __TwigTemplate_844800836a1047c1ed6ab9d11fe96c2d extends Template
 
     <a href=\"{{ path('app_banco_horas_controlador2_index') }}\">back to list</a>
 {% endblock %}
-", "banco_horas_controlador2/new.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas_controlador2\\new.html.twig");
+", "banco_horas_controlador2/new.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas_controlador2\\new.html.twig");
     }
 }

@@ -2272,6 +2272,6 @@ class __TwigTemplate_db4e9c881793ee9c492e7508735b4b82 extends Template
         </dd>
     </div>
 {% endmacro %}
-", "@EasyAdmin/crud/detail.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\detail.html.twig");
+", "@EasyAdmin/crud/detail.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\detail.html.twig");
     }
 }

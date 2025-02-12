@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'symfony/skeleton',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '693a630a9017c6a0b9819f72ef254dc0631ce3f3',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'a257767855d4f4b23606c2e550028e681b06f334',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -1101,9 +1101,9 @@
             'dev_requirement' => false,
         ),
         'symfony/security-bundle' => array(
-            'pretty_version' => 'v7.1.4',
-            'version' => '7.1.4.0',
-            'reference' => '5e10107856ff64d477c61fed7bcbb8a16125ea01',
+            'pretty_version' => 'v7.1.11',
+            'version' => '7.1.11.0',
+            'reference' => '4012dbc0884fc7cbf555615a5aaa16f7c0d3f222',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../symfony/security-bundle',
             'aliases' => array(),
@@ -1161,9 +1161,9 @@
             ),
         ),
         'symfony/skeleton' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '693a630a9017c6a0b9819f72ef254dc0631ce3f3',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'a257767855d4f4b23606c2e550028e681b06f334',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -174,6 +174,6 @@ class __TwigTemplate_345be255122804530ebd485b524d9273 extends Template
         </span>
     </button>
 {% endif %}
-", "@EasyAdmin/crud/action.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\action.html.twig");
+", "@EasyAdmin/crud/action.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\action.html.twig");
     }
 }

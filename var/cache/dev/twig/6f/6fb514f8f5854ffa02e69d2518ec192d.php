@@ -471,6 +471,6 @@ class __TwigTemplate_035e372347a927706d0d3cfe02fa4014 extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\symfony\\debug-bundle\\Resources\\views\\Profiler\\dump.html.twig");
     }
 }

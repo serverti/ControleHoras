@@ -90,7 +90,7 @@ class __TwigTemplate_58f5bffaa1e926f2b2fd32679acf3524 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "@EasyAdmin/layout.html.twig"));
 
         // line 2
-        $context["__internal_aaec430c18c96905afda0f67e743f331"] = CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 2, $this->source); })()), "i18n", [], "any", false, false, false, 2), "translationDomain", [], "any", false, false, false, 2);
+        $context["__internal_c0c2064821994e3e35967f809c2bd157"] = CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 2, $this->source); })()), "i18n", [], "any", false, false, false, 2), "translationDomain", [], "any", false, false, false, 2);
         // line 3
         yield "
 <!DOCTYPE html>
@@ -952,7 +952,7 @@ $context["item"], "isMenuSection", [], "any", false, false, false, 108)) {
                     // line 113
                     yield "                                        ";
                     yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans(CoreExtension::getAttribute($this->env, $this->source, $context["item"], "label", [], "any", false, false, false, 113), [],                     // line 2
-(isset($context["__internal_aaec430c18c96905afda0f67e743f331"]) || array_key_exists("__internal_aaec430c18c96905afda0f67e743f331", $context) ? $context["__internal_aaec430c18c96905afda0f67e743f331"] : (function () { throw new RuntimeError('Variable "__internal_aaec430c18c96905afda0f67e743f331" does not exist.', 2, $this->source); })())), "html", null, true);
+(isset($context["__internal_c0c2064821994e3e35967f809c2bd157"]) || array_key_exists("__internal_c0c2064821994e3e35967f809c2bd157", $context) ? $context["__internal_c0c2064821994e3e35967f809c2bd157"] : (function () { throw new RuntimeError('Variable "__internal_c0c2064821994e3e35967f809c2bd157" does not exist.', 2, $this->source); })())), "html", null, true);
                     // line 113
                     yield "
                                     </a>
@@ -1480,7 +1480,7 @@ $context["item"], "isMenuSection", [], "any", false, false, false, 108)) {
         (((CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, ($context["app"] ?? null), "request", [], "any", false, true, false, 294), "get", ["query"], "method", true, true, false, 294) &&  !(null === CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, ($context["app"] ?? null), "request", [], "any", false, true, false, 294), "get", ["query"], "method", false, false, false, 294)))) ? (yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape(CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, ($context["app"] ?? null), "request", [], "any", false, true, false, 294), "get", ["query"], "method", false, false, false, 294), "html", null, true)) : (yield ""));
         yield "\" placeholder=\"";
         yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->createTranslatable("action.search", CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 294, $this->source); })()), "i18n", [], "any", false, false, false, 294), "translationParameters", [], "any", false, false, false, 294), "EasyAdminBundle"), [],         // line 2
-(isset($context["__internal_aaec430c18c96905afda0f67e743f331"]) || array_key_exists("__internal_aaec430c18c96905afda0f67e743f331", $context) ? $context["__internal_aaec430c18c96905afda0f67e743f331"] : (function () { throw new RuntimeError('Variable "__internal_aaec430c18c96905afda0f67e743f331" does not exist.', 2, $this->source); })())), "html", null, true);
+(isset($context["__internal_c0c2064821994e3e35967f809c2bd157"]) || array_key_exists("__internal_c0c2064821994e3e35967f809c2bd157", $context) ? $context["__internal_c0c2064821994e3e35967f809c2bd157"] : (function () { throw new RuntimeError('Variable "__internal_c0c2064821994e3e35967f809c2bd157" does not exist.', 2, $this->source); })())), "html", null, true);
         // line 294
         yield "\" spellcheck=\"false\" autocorrect=\"off\" onInput=\"this.parentNode.dataset.value=this.value\"";
         if (((CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 294, $this->source); })()), "crud", [], "any", false, false, false, 294), "currentAction", [], "any", false, false, false, 294) == "index") && (CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 294, $this->source); })()), "crud", [], "any", false, false, false, 294), "autofocusSearch", [], "any", false, false, false, 294) == true))) {
@@ -1920,7 +1920,7 @@ $context["item"], "isMenuSection", [], "any", false, false, false, 108)) {
             // line 351
             yield "                                                            <a tabindex=\"0\" class=\"content-header-help\" data-bs-toggle=\"popover\" data-bs-custom-class=\"ea-content-help-popover\" data-bs-animation=\"true\" data-bs-html=\"true\" data-bs-placement=\"bottom\" data-bs-trigger=\"focus\" data-bs-content=\"";
             yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\TranslationExtension']->trans(CoreExtension::getAttribute($this->env, $this->source, CoreExtension::getAttribute($this->env, $this->source, (isset($context["ea"]) || array_key_exists("ea", $context) ? $context["ea"] : (function () { throw new RuntimeError('Variable "ea" does not exist.', 351, $this->source); })()), "crud", [], "any", false, false, false, 351), "helpMessage", [], "any", false, false, false, 351), [],             // line 2
-(isset($context["__internal_aaec430c18c96905afda0f67e743f331"]) || array_key_exists("__internal_aaec430c18c96905afda0f67e743f331", $context) ? $context["__internal_aaec430c18c96905afda0f67e743f331"] : (function () { throw new RuntimeError('Variable "__internal_aaec430c18c96905afda0f67e743f331" does not exist.', 2, $this->source); })())), "html_attr");
+(isset($context["__internal_c0c2064821994e3e35967f809c2bd157"]) || array_key_exists("__internal_c0c2064821994e3e35967f809c2bd157", $context) ? $context["__internal_c0c2064821994e3e35967f809c2bd157"] : (function () { throw new RuntimeError('Variable "__internal_c0c2064821994e3e35967f809c2bd157" does not exist.', 2, $this->source); })())), "html_attr");
             // line 351
             yield "\">
                                                                 <i class=\"far fa-question-circle\"></i>
@@ -2530,6 +2530,6 @@ $context["item"], "isMenuSection", [], "any", false, false, false, 108)) {
     </body>
 {% endblock body %}
 </html>
-", "@EasyAdmin/layout.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\layout.html.twig");
+", "@EasyAdmin/layout.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\layout.html.twig");
     }
 }

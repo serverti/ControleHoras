@@ -248,6 +248,6 @@ class __TwigTemplate_1b0a5178a7e11db879df3fca27344bb4 extends Template
 
     <a href=\"{{ path('app_banco_horas_new') }}\">Create new</a>
 {% endblock %}
-", "banco_horas/index.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas\\index.html.twig");
+", "banco_horas/index.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas\\index.html.twig");
     }
 }

@@ -119,6 +119,6 @@ class __TwigTemplate_774dc11eb97959b1103d34aa7d4cc7b2 extends Template
 {% else %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/array.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\array.html.twig");
+", "@EasyAdmin/crud/field/array.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\array.html.twig");
     }
 }

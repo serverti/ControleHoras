@@ -239,6 +239,6 @@ class __TwigTemplate_0a2e7bc3292e7e8e1523f9de573f93da extends Template
         {{- field.formattedValue|escape -}}
     </textarea>
 {% endmacro %}
-", "@EasyAdmin/crud/field/code_editor.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\code_editor.html.twig");
+", "@EasyAdmin/crud/field/code_editor.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\code_editor.html.twig");
     }
 }

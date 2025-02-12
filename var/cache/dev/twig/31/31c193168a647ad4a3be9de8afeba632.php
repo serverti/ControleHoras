@@ -85,6 +85,6 @@ class __TwigTemplate_5a51631228f4ed0d1c1d4bda056036e8 extends Template
     {
         return new Source("{# @var assets \\EasyCorp\\Bundle\\EasyAdminBundle\\Dto\\AssetDto[] #}
 {{ ea_importmap(assets|map(asset => asset.value)) }}
-", "@EasyAdmin/includes/_importmap.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\includes\\_importmap.html.twig");
+", "@EasyAdmin/includes/_importmap.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\includes\\_importmap.html.twig");
     }
 }

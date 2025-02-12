@@ -118,6 +118,6 @@ class __TwigTemplate_10f49957c0ddde6274c38460247aa009 extends Template
         {{ render_as_html ? field.formattedValue|raw : field.formattedValue|striptags }}
     </span>
 {% endif %}
-", "@EasyAdmin/crud/field/textarea.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\textarea.html.twig");
+", "@EasyAdmin/crud/field/textarea.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\textarea.html.twig");
     }
 }

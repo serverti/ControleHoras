@@ -577,6 +577,6 @@ class __TwigTemplate_04fdc74ca9187c374b72c191d95c48ca extends Template
         </a>
     {% endif %}
 {% endmacro %}
-", "@EasyAdmin/menu.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\menu.html.twig");
+", "@EasyAdmin/menu.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\menu.html.twig");
     }
 }

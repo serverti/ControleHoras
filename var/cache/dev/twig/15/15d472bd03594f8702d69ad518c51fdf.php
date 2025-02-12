@@ -154,6 +154,6 @@ class __TwigTemplate_8b1a1f010c0df94692db99653745465d extends Template
         </div>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/text_editor.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text_editor.html.twig");
+", "@EasyAdmin/crud/field/text_editor.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\text_editor.html.twig");
     }
 }

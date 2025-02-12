@@ -94,6 +94,6 @@ class __TwigTemplate_bb4bdab4ccb6c76d988b5bb98bfa8e75 extends Template
     <input type=\"hidden\" name=\"_token\" value=\"{{ csrf_token('delete' ~ banco_hora.id) }}\">
     <button class=\"btn\">Delete</button>
 </form>
-", "banco_horas/_delete_form.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas\\_delete_form.html.twig");
+", "banco_horas/_delete_form.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas\\_delete_form.html.twig");
     }
 }

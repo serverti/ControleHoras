@@ -170,6 +170,6 @@ class __TwigTemplate_52a780f76f27eb8d4abe22b5630ef02f extends Template
     </ul>
 </div>
 {% endblock %}
-", "banco_horas_controlador/index.html.twig", "C:\\Users\\Vilela\\gitPHP\\templates\\banco_horas_controlador\\index.html.twig");
+", "banco_horas_controlador/index.html.twig", "C:\\Users\\Vilela\\ControleHoras\\templates\\banco_horas_controlador\\index.html.twig");
     }
 }

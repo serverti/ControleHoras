@@ -155,6 +155,6 @@ class __TwigTemplate_d18e65701edd4b384cd0a213c9e82cb7 extends Template
         <label class=\"form-check-label\" for=\"{{ field.uniqueId }}\"></label>
     </div>
 {% endif %}
-", "@EasyAdmin/crud/field/boolean.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\boolean.html.twig");
+", "@EasyAdmin/crud/field/boolean.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\boolean.html.twig");
     }
 }

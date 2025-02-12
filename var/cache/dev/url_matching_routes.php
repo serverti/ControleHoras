@@ -17,6 +17,9 @@ return [
         '/admin' => [[['_route' => 'admin', '_controller' => 'App\\Controller\\Admin\\DashboardController::index'], null, null, null, false, false, null]],
         '/bancohoras' => [[['_route' => 'app_banco_horas_controlador2_index', '_controller' => 'App\\Controller\\BancoHorasControlador2Controller::index'], null, ['GET' => 0], null, false, false, null]],
         '/bancohoras/new' => [[['_route' => 'app_banco_horas_controlador2_new', '_controller' => 'App\\Controller\\BancoHorasControlador2Controller::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
+        '/register' => [[['_route' => 'app_register', '_controller' => 'App\\Controller\\RegisterController::register'], null, null, null, false, false, null]],
+        '/login' => [[['_route' => 'app_login', '_controller' => 'App\\Controller\\SecurityController::login'], null, null, null, false, false, null]],
+        '/logout' => [[['_route' => 'app_logout', '_controller' => 'App\\Controller\\SecurityController::logout'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

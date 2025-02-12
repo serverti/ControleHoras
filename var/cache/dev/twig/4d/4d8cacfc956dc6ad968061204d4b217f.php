@@ -108,6 +108,6 @@ class __TwigTemplate_e45a5ed6839aefca3faf637b9b1ca448 extends Template
 {% if field.customOptions.get('showValue') %}
     {{ field.formattedValue }}
 {% endif %}
-", "@EasyAdmin/crud/field/color.html.twig", "C:\\Users\\Vilela\\gitPHP\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\color.html.twig");
+", "@EasyAdmin/crud/field/color.html.twig", "C:\\Users\\Vilela\\ControleHoras\\vendor\\easycorp\\easyadmin-bundle\\src\\Resources\\views\\crud\\field\\color.html.twig");
     }
 }
