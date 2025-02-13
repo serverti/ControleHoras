@@ -10,6 +10,10 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+/var
+/vendor
+.env.local.php
+.env.test
 
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache

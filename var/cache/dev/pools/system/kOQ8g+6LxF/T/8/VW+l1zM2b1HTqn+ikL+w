@@ -1,3 +1,0 @@
-<?php //610b158af1dbb5e67b326be2dacaed77
-
-return [PHP_INT_MAX, '@symfony/stimulus-bundle/loader.js'];
