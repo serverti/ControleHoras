@@ -4,7 +4,8 @@
 /public/bundles/
 
 ###< symfony/framework-bundle ###
-
+/var/cache
+/vendor/deployer/deployer
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
