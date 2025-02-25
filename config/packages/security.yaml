@@ -21,8 +21,8 @@ security:
         check_path: app_login
         enable_csrf: true
         use_forward: true
-        always_use_default_target_path: true
         default_target_path: admin
+        use_referer: true
 
       logout:
         path: app_logout
