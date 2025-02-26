@@ -23,8 +23,9 @@ class BancoHoras
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $nomeCliente = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $tipoAtendimento = null;
+    #[ORM\OneToOne(cascade: ['persist', 'remove'])]
+    private ?TipoAtendimento $tipoAtendimento = null;
+
 
     public function getId(): ?int
     {
@@ -67,15 +68,16 @@ class BancoHoras
         return $this;
     }
 
-    public function getTipoAtendimento(): ?string
+    public function getTipoAtendimento(): ?TipoAtendimento
     {
         return $this->tipoAtendimento;
     }
 
-    public function setTipoAtendimento(string $tipoAtendimento): static
+    public function setTipoAtendimento(?TipoAtendimento $tipoAtendimento): static
     {
         $this->tipoAtendimento = $tipoAtendimento;
 
         return $this;
     }
+
 }

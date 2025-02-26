@@ -22,12 +22,14 @@ class UserRepository extends ServiceEntityRepository
 
     /**
      * @param string $plaintextPassword
+     * @param string $email
      * @return User
      */
-    public function newUserAdmin(string $plaintextPassword): User
+    public function newUserAdmin(string $email, string $plaintextPassword): User
     {
         $user = new User();
         $user->setRoles(['ROLE_ADMIN']);
+        $user->setEmail($email);
 
         $hashedPassword = $this->passwordHasher->hashPassword(
             $user,

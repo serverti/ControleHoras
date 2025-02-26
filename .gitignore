@@ -21,12 +21,13 @@
 /assets/vendor/
 ###< symfony/asset-mapper ###
 
-.idea
-migrations/
-var/
+/.idea
+/migrations/
+/var/
 vendor/
-migration/
-assets/vendor/
-.env.local
-.env.prod.local
-.env.local.php
+/migration/
+/.env.local
+/.env.prod.local
+/.env.local.php
+/.env.dev.local
+/.run/

@@ -13,18 +13,15 @@ class AppFixtures extends Fixture
 
     public function __construct(UserRepository $userRepository)
     {
-
         $this->userRepository = $userRepository;
     }
 
     public function load(ObjectManager $manager): void
     {
-
-        $newUserAdmin = $this->userRepository->newUserAdmin('Admin123');
-        $newUserAdmin->setEmail('admin@admin.com.br');
-
+        $newUserAdmin = $this->userRepository->newUserAdmin($_ENV['DASHBOARD_ADMIN_USER_EMAIL'], $_ENV['DASHBOARD_ADMIN_USER_PASSWORD']);
         $manager->persist($newUserAdmin);
-
         $manager->flush();
     }
+
+
 }
