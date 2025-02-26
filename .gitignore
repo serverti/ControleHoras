@@ -31,3 +31,6 @@ vendor/
 /.env.local.php
 /.env.dev.local
 /.run/
+/.vagrant/bundler
+/.vagrant/machines
+/.vagrant/rgloader

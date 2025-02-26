@@ -5,7 +5,7 @@ services:
     restart: always
     command: --character-set-server=${MARIADB_CHARSET} --collation-server=${MARIADB_CHARSET_COLLATION} --bind-address=0.0.0.0
     ports:
-      - "3306:3306"
+      - "13306:3306"
     volumes:
       - database_data:/var/lib/mysql
 
