@@ -14,3 +14,13 @@ php bin/console doctrine:fixtures:load
 
 php -S localhost:8888 -t public/
 ````
+
+### Comandos para otimizar a criação de código.
+
+Exemplo de uma nova funcionalidade
+
+```
+
+```
+
+
